@@ -1,1 +1,6 @@
 # Escopo do Projeto DOG-IA
+
+- Matheus Ferreira Vieira RA: 99693
+- Gustavo Moreira Silva - RA: 100505
+- Victor Souza Ferreira - RA: 90792
+- Vinicius Geronimo Da Costa - RA: 106053
