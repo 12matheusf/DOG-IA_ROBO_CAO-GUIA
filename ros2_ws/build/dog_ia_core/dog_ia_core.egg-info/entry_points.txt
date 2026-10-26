@@ -1,0 +1,3 @@
+[console_scripts]
+valida_ambiente = dog_ia_core.valida_ambiente:main
+

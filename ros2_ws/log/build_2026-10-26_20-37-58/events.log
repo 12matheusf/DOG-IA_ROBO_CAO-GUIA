@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (dog_ia_core) JobQueued: {'identifier': 'dog_ia_core', 'dependencies': OrderedDict()}
+[0.000594] (dog_ia_core) JobStarted: {'identifier': 'dog_ia_core'}
+[0.099453] (-) TimerEvent: {}
+[0.199765] (-) TimerEvent: {}
+[0.300058] (-) TimerEvent: {}
+[0.400322] (-) TimerEvent: {}
+[0.500546] (-) TimerEvent: {}
+[0.600822] (-) TimerEvent: {}
+[0.701124] (-) TimerEvent: {}
+[0.801373] (-) TimerEvent: {}
+[0.901627] (-) TimerEvent: {}
+[1.001896] (-) TimerEvent: {}
+[1.102213] (-) TimerEvent: {}
+[1.202559] (-) TimerEvent: {}
+[1.302844] (-) TimerEvent: {}
+[1.403153] (-) TimerEvent: {}
+[1.503396] (-) TimerEvent: {}
+[1.557504] (dog_ia_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/alunos/ros2_ws/build/dog_ia_core/build', '--no-deps', 'symlink_data'], 'cwd': '/home/alunos/ros2_ws/build/dog_ia_core', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'alunos'), ('XDG_SEAT', 'seat0'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alunos'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/alunos/ros2_ws/src/DOG-IA_ROBO_CAO-GUIA'), ('TERM_PROGRAM_VERSION', '1.143.1'), ('DESKTOP_SESSION', 'cinnamon'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('CINNAMON_VERSION', '5.2.7'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '41149'), ('NVM_DIR', '/home/alunos/.nvm'), ('COLCON_PREFIX_PATH', '/home/alunos/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alunos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alunos/.local/bin:/opt/ros/humble/bin:/home/alunos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Lab07-008904:@/tmp/.ICE-unix/2234,unix/Lab07-008904:/tmp/.ICE-unix/2234'), ('GDM_LANG', 'pt_BR'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'X-Cinnamon'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'cinnamon'), ('XAUTHORITY', '/home/alunos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-eacb1e64d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/alunos'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'cinnamon'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/alunos/ros2_ws/build/dog_ia_core'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-cinnamon:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/cinnamon:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alunos/ros2_ws/build/dog_ia_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alunos/ros2_ws/install/dog_ia_core/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[1.603497] (-) TimerEvent: {}
+[1.703829] (-) TimerEvent: {}
+[1.807039] (-) TimerEvent: {}
+[1.907316] (-) TimerEvent: {}
+[1.942027] (dog_ia_core) StdoutLine: {'line': b'running develop\n'}
+[2.007406] (-) TimerEvent: {}
+[2.107703] (-) TimerEvent: {}
+[2.207961] (-) TimerEvent: {}
+[2.216170] (dog_ia_core) StdoutLine: {'line': b'running egg_info\n'}
+[2.216333] (dog_ia_core) StdoutLine: {'line': b'creating dog_ia_core.egg-info\n'}
+[2.216586] (dog_ia_core) StdoutLine: {'line': b'writing dog_ia_core.egg-info/PKG-INFO\n'}
+[2.216801] (dog_ia_core) StdoutLine: {'line': b'writing dependency_links to dog_ia_core.egg-info/dependency_links.txt\n'}
+[2.217011] (dog_ia_core) StdoutLine: {'line': b'writing entry points to dog_ia_core.egg-info/entry_points.txt\n'}
+[2.217113] (dog_ia_core) StdoutLine: {'line': b'writing requirements to dog_ia_core.egg-info/requires.txt\n'}
+[2.217190] (dog_ia_core) StdoutLine: {'line': b'writing top-level names to dog_ia_core.egg-info/top_level.txt\n'}
+[2.220016] (dog_ia_core) StdoutLine: {'line': b"writing manifest file 'dog_ia_core.egg-info/SOURCES.txt'\n"}
+[2.221954] (dog_ia_core) StdoutLine: {'line': b"reading manifest file 'dog_ia_core.egg-info/SOURCES.txt'\n"}
+[2.222616] (dog_ia_core) StdoutLine: {'line': b"writing manifest file 'dog_ia_core.egg-info/SOURCES.txt'\n"}
+[2.223883] (dog_ia_core) StdoutLine: {'line': b'running build_ext\n'}
+[2.224126] (dog_ia_core) StdoutLine: {'line': b'Creating /home/alunos/ros2_ws/install/dog_ia_core/lib/python3.10/site-packages/dog-ia-core.egg-link (link to .)\n'}
+[2.224905] (dog_ia_core) StdoutLine: {'line': b'Installing valida_ambiente script to /home/alunos/ros2_ws/install/dog_ia_core/lib/dog_ia_core\n'}
+[2.225117] (dog_ia_core) StdoutLine: {'line': b'\n'}
+[2.225263] (dog_ia_core) StdoutLine: {'line': b'Installed /home/alunos/ros2_ws/build/dog_ia_core\n'}
+[2.225407] (dog_ia_core) StdoutLine: {'line': b'running symlink_data\n'}
+[2.225507] (dog_ia_core) StdoutLine: {'line': b'creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index\n'}
+[2.225622] (dog_ia_core) StdoutLine: {'line': b'creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index\n'}
+[2.225689] (dog_ia_core) StdoutLine: {'line': b'creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index/packages\n'}
+[2.225748] (dog_ia_core) StdoutLine: {'line': b'symbolically linking /home/alunos/ros2_ws/build/dog_ia_core/resource/dog_ia_core -> /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index/packages\n'}
+[2.225806] (dog_ia_core) StdoutLine: {'line': b'symbolically linking /home/alunos/ros2_ws/build/dog_ia_core/package.xml -> /home/alunos/ros2_ws/install/dog_ia_core/share/dog_ia_core\n'}
+[2.269101] (dog_ia_core) CommandEnded: {'returncode': 0}
+[2.284724] (dog_ia_core) JobEnded: {'identifier': 'dog_ia_core', 'rc': 0}
+[2.285308] (-) EventReactorShutdown: {}

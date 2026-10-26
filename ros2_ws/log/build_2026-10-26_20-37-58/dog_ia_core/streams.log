@@ -1,0 +1,24 @@
+[1.558s] Invoking command in '/home/alunos/ros2_ws/build/dog_ia_core': PYTHONPATH=/home/alunos/ros2_ws/build/dog_ia_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alunos/ros2_ws/install/dog_ia_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alunos/ros2_ws/build/dog_ia_core/build --no-deps symlink_data
+[1.942s] running develop
+[2.216s] running egg_info
+[2.216s] creating dog_ia_core.egg-info
+[2.216s] writing dog_ia_core.egg-info/PKG-INFO
+[2.216s] writing dependency_links to dog_ia_core.egg-info/dependency_links.txt
+[2.216s] writing entry points to dog_ia_core.egg-info/entry_points.txt
+[2.217s] writing requirements to dog_ia_core.egg-info/requires.txt
+[2.217s] writing top-level names to dog_ia_core.egg-info/top_level.txt
+[2.219s] writing manifest file 'dog_ia_core.egg-info/SOURCES.txt'
+[2.221s] reading manifest file 'dog_ia_core.egg-info/SOURCES.txt'
+[2.222s] writing manifest file 'dog_ia_core.egg-info/SOURCES.txt'
+[2.223s] running build_ext
+[2.224s] Creating /home/alunos/ros2_ws/install/dog_ia_core/lib/python3.10/site-packages/dog-ia-core.egg-link (link to .)
+[2.224s] Installing valida_ambiente script to /home/alunos/ros2_ws/install/dog_ia_core/lib/dog_ia_core
+[2.225s] 
+[2.225s] Installed /home/alunos/ros2_ws/build/dog_ia_core
+[2.225s] running symlink_data
+[2.225s] creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index
+[2.225s] creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index
+[2.225s] creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index/packages
+[2.225s] symbolically linking /home/alunos/ros2_ws/build/dog_ia_core/resource/dog_ia_core -> /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index/packages
+[2.225s] symbolically linking /home/alunos/ros2_ws/build/dog_ia_core/package.xml -> /home/alunos/ros2_ws/install/dog_ia_core/share/dog_ia_core
+[2.269s] Invoked command in '/home/alunos/ros2_ws/build/dog_ia_core' returned '0': PYTHONPATH=/home/alunos/ros2_ws/build/dog_ia_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alunos/ros2_ws/install/dog_ia_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alunos/ros2_ws/build/dog_ia_core/build --no-deps symlink_data

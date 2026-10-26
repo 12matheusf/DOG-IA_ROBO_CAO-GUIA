@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating dog_ia_core.egg-info
+writing dog_ia_core.egg-info/PKG-INFO
+writing dependency_links to dog_ia_core.egg-info/dependency_links.txt
+writing entry points to dog_ia_core.egg-info/entry_points.txt
+writing requirements to dog_ia_core.egg-info/requires.txt
+writing top-level names to dog_ia_core.egg-info/top_level.txt
+writing manifest file 'dog_ia_core.egg-info/SOURCES.txt'
+reading manifest file 'dog_ia_core.egg-info/SOURCES.txt'
+writing manifest file 'dog_ia_core.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alunos/ros2_ws/install/dog_ia_core/lib/python3.10/site-packages/dog-ia-core.egg-link (link to .)
+Installing valida_ambiente script to /home/alunos/ros2_ws/install/dog_ia_core/lib/dog_ia_core
+
+Installed /home/alunos/ros2_ws/build/dog_ia_core
+running symlink_data
+creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index
+creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index
+creating /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index/packages
+symbolically linking /home/alunos/ros2_ws/build/dog_ia_core/resource/dog_ia_core -> /home/alunos/ros2_ws/install/dog_ia_core/share/ament_index/resource_index/packages
+symbolically linking /home/alunos/ros2_ws/build/dog_ia_core/package.xml -> /home/alunos/ros2_ws/install/dog_ia_core/share/dog_ia_core

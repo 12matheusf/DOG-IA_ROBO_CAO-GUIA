@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+dog_ia_core/__init__.py
+dog_ia_core/valida_ambiente.py
+dog_ia_core.egg-info/PKG-INFO
+dog_ia_core.egg-info/SOURCES.txt
+dog_ia_core.egg-info/dependency_links.txt
+dog_ia_core.egg-info/entry_points.txt
+dog_ia_core.egg-info/requires.txt
+dog_ia_core.egg-info/top_level.txt
+dog_ia_core.egg-info/zip-safe
+resource/dog_ia_core
